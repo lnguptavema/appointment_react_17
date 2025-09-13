@@ -1,0 +1,48 @@
+.listItem {
+  list-style-type: none;
+  margin: 0px;
+  border: 1px #b5b7c4 solid;
+  border-radius: 10px;
+  width: 25vw;
+  padding: 0px;
+  height: 10vh;
+  margin-right: 10px;
+  font-size: 10px;
+}
+.container {
+  width: 100vw;
+  height: 10vh;
+  margin: 0px;
+}
+.starContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 23vw;
+  margin: 0px;
+  height: 5vh;
+}
+img {
+  height: 3vh;
+  width: 3vw;
+  margin: 0px;
+  align-self: center;
+}
+.starButton {
+  border: 0px solid;
+  background-color: white;
+  outline: none;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .dateValue {
+    font-size: 5px;
+    margin-left: 4px;
+  }
+  .li {
+    margin: 10px;
+  }
+  .inputValue {
+    margin-left: 10px;
+  }
+}

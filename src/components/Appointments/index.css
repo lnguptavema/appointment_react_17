@@ -1,0 +1,124 @@
+.mainContainer {
+  background: linear-gradient(#fbc7d4, #9796f0);
+  padding: 15px;
+  height: 100vh;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.trueColor {
+  background-color: #8b5cf6 !important;
+  color: white !important ;
+  font-size: 15px !important ;
+  font-weight: solid;
+}
+input {
+  height: 3vh;
+}
+.mainheading {
+  margin-top: 0px;
+}
+.mainCard {
+  background-color: white;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  justify-content: space-evenly;
+}
+.cardItem {
+  display: flex;
+  flex-direction: row;
+}
+.addbutton {
+  background-color: #8b5cf6;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  border: 0px solid;
+  height: 3vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 5vh;
+}
+.appointmentsImg {
+  height: 20vh;
+  width: 30vw;
+  margin-top: 20px;
+}
+.cardItemAppointments {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+.buttonStarred {
+  color: #9897f0;
+  border: solid #8b5cf6 1px;
+  background-color: white;
+  border-radius: 15px;
+  height: 3vh;
+  width: 9vw;
+  align-self: center;
+  outline: none;
+  cursor: pointer;
+}
+.hr {
+  color: #b5b7c4;
+  width: 90vw;
+  height: 1px;
+  margin-top: 40px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 767px) {
+  .appointmentsImg {
+    display: none;
+  }
+  input {
+    height: 5vh;
+  }
+  .mainheading {
+    font-size: 20px;
+  }
+  .addbutton {
+    width: 15vw;
+    border-radius: 5px;
+    height: 5vh;
+  }
+  .hr {
+    width: 70vw;
+  }
+  li {
+    margin-bottom: 15px !important;
+  }
+  .appointmentsHeading {
+    font-size: 15px;
+  }
+  .buttonStarred {
+    width: 20vw;
+    height: 5vh;
+  }
+  .mainCard {
+    width: 80vw;
+  }
+  ul {
+    width: 70vw;
+    align-self: flex-start !important;
+    margin: 0px !important;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
+}
